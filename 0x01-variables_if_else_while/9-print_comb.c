@@ -13,14 +13,14 @@ for (i = 0; i <= 9; i++)
 {
 for (j = 0; j <= 9; i++)
 {
-printf("%d%d ", i, j);
+putchar('0' + i);
+putchar('0' + j);
 if (i != 9 || j != 9)
 {
-putchar(',');
-putchar(' ');
+putchar(',''''''');
 }
 }
 }
-printf("\n");
+putchar('\n');
 return (0);
 }
