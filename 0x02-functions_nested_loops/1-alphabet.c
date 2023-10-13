@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
@@ -7,15 +6,14 @@
  * Return: 0
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	int lowerAlphabets = 'a';
+	char alphabets = 'a';
 
-	while (lowerAlphabets <= 'z')
-{
-	_putchar(lowerAlphabets);
-	lowerAlphabets++;
-}
-	_putchar('\n');
-	return (0);
+	while (alphabets <= 'z')
+	{
+		_putchar(alphabets);
+		alphabets++;
+	}
+	_putchar ('\n');
 }
