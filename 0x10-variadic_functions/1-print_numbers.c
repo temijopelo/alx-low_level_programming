@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * print_number - entry point
+ * print_numbers - entry point
  * @separator: char
  * @n: integer
  * @...: other parameters
